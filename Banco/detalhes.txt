@@ -1,0 +1,24 @@
+static = Static serve para referenciar todos aqueles atributos/métodos de classe, ou seja, que podem ser acessados diretamente da definição da classe, sem precisar instanciar nenhum objeto.
+
+static é uma variavel (ou metodo), que nao depende de um objeto instanciado pra ser usado
+
+drive manager = gerenciador de direção
+
+Prepared Statement =uma forma de você fazer uma inserção no banco mais segura, onde você prepara os parametros para serem inseridos.
+
+Result Set = é um conjunto de linhas de um banco de dados sobre a consulta como nomes de coluna e os tipos e tamanhos de cada coluna. 
+
+Para obter um ResultSet com os dados do BD é necessário utilizar ele em conjunto com Connection e PreparedStatement (ou Statement).
+
+DAO = DAO é um padrão de projeto que abstrai e encapsula os mecanismos de acesso a dados escondendo os detalhes da execução da origem dos dados.
+faz a manipulação dos dados que vem do banco
+
+usando um modelo MVC (Model - View - Controller) o DAO é uma boa opção na minha opinião…
+Um botão na sua View dispara um método no Controller que acessa um DAO pra recuperar ou fazer alguma outra coisa com os dados, e depois exibir os resultados de novo na sua View…
+
+stmt (passar por parametro) = os valores foram passados por parametro onde o stmt irá preparar para serem inseridos..
+
+
+
+
+
